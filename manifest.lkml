@@ -1,20 +1,20 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "gs4_cortex_reporting"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project ID"
+  value: "gcc-sap-sandbox-demo"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "GS4_REPORTING"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "600"
   export: override_required
 }
 
@@ -24,7 +24,6 @@ constant: SIGN_CHANGE {
   value: "yes"
   export: override_required
 }
-
 
 #############################
 # Additional Constants used for formatting and other logic
